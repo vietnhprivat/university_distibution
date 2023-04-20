@@ -15,7 +15,6 @@
 3. Data analysis in SQL
     - Merge matching educations after removing ‘vinterstart’ and ‘sommerstart’
     - University student count table and percentage
-    - Gender distribution table in percentage
     - 'Gymnasie' distribution table in percentage
     - Bonus age distribution
 4. Visualization in Power BI
