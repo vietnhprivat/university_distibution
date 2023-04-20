@@ -2,10 +2,29 @@
 
 # Summery
 
-●	Using Excel to preview, format data and joining columns.
+* The purpose of this project is to create an interactive treemap, that is grouped by Universities but also shows the distibution for each individual academic major. 
+* The distibution is based on the acceptance reasoning, focused on the must popular high school institutes STX, HF, HHX and HTX. 
 
-●	Transformed and processed the data with Pandas and exporting as .csv File.
-
-●	Using SQL to execute aggregated functions, grouping and joining tables. 
-
-●	Creating a visual tree map of the result using Power BI
+# Data cleaning
+1. Overview in Excel
+    - [ ]  Adding small columns together as ‘andet’
+    - [ ]  Overview how to process data
+2. Extra cleaning in python
+    - [ ]  Remove ‘studiestart’
+    - [ ]  Export data frame to SQL
+3. Data analysis in SQL
+    - [ ]  Merge matching educations after removing ‘vinterstart’ and ‘sommerstart’
+    - [ ]  University student count table and percentage
+    - [ ]  Gender distribution table in percentage
+    - [ ]  'Gymnasie' distribution table in percentage
+    - [ ]  Bonus age distribution
+4. Joining tables SQL
+    - [ ]  Join gym_fordeling with gym_pctfordeling
+    - [ ]  Join gym_unifordeling with gym_unipctfordeling
+    - [ ]  Join køns_fordeling with køns_pctfordeling
+    - [ ]  Join køns_unifordeling with køns_unipctfordeling
+5. Visualization in Power BI
+    - [ ]  Create a treemap
+        - [ ]  Different universities
+        - [ ]  Different majors
+        - [ ]  Distribution stats
